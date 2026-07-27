@@ -23,7 +23,9 @@ A responsive weather application built with **React** that provides real-time we
 
 ### Weather Search
 
-![Search Result](./screenshots/search.png)
+![Search Result](./screenshots/weatherapp.png)
+
+![Search Result](./screenshots/weatherapp2.png)
   
 
 ## ⚙️ Installation
