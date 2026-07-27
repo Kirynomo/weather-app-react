@@ -17,6 +17,13 @@ A responsive weather application built with **React** that provides real-time we
 - CSS
 - Vite
 - Weather API (OpenWeatherMap or whichever API you used)
+
+
+## Screenshots
+
+### Weather Search
+
+![Search Result](./screenshots/search.png)
   
 
 ## ⚙️ Installation
