@@ -1,0 +1,15 @@
+runtime: python39
+instance_class: F1
+
+handlers:
+  # 1. Match and serve static assets (js, css, images)
+  - url: /(.*\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|json|txt))$
+    static_files: \1
+    upload: (.*\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|json|txt))$
+    secure: always
+
+  # 2. Route everything else to index.html (Handles React Router deep links)
+  - url: /.*
+    static_files: index.html
+    upload: index.html
+    secure: always
